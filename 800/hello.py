@@ -1,9 +1,5 @@
-a = input("Your User: " )
+def main():
+  print("Hello World!")
 
-for i in range(100):
-  print("Hello, ssssssssssssssssssss", a)
-
-b = 3343;
-c = "Lajl maia"
-
-print(b, c)
+if __name__ == "__main__":
+  main()
