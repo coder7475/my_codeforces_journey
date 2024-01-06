@@ -1,7 +1,9 @@
-n = int(input())
+t = int(input())
 
-for i in range(n):
+for i in range(t):
   n, m = map(int, input().split())
-  k = n / m
-  output = ((k * (k + 1)) / 2) * m 
-  print(int(output))
+
+  k = n // m
+  ans = (k * (k+1) * m) // 2
+
+  print(ans)
